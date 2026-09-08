@@ -1,4 +1,4 @@
-# SO_UFS_2026_2_Costa_Enzo_Godoy_Filipe
+# SO_UFS_2026_2
 
 ## Equipe Gemma - Sistemas Operacionais 2026.2 - Ollama + Open WebUI
 
