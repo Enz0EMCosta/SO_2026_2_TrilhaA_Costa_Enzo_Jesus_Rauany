@@ -21,7 +21,7 @@
 **Objetivo do trabalho:** este repositório documenta a instalação e execução local de uma aplicação de IA generativa (Ollama + Open WebUI), relacionando processos, threads, chamadas de sistema e uso de recursos (CPU, memória, armazenamento) do ambiente Linux ao comportamento observado do sistema sob diferentes configurações de carga, concorrência e execução.
 
 ## Vídeo da atividade
-🔗 **URL:** *Ainda gravando! O link entra aqui assim que estiver pronto — a versão mais atual sempre está em [VIDEO.md](./VIDEO.md).*
+🔗 **URL:** *Ainda gravando! O link entra aqui assim que estiver pronto — a versão mais atual sempre está em [VIDEO.md](./entrega/VIDEO.md).*
 
 ## Informações relevantes
 - [Contribuição Individual](./equipe/contribuicoes.md)
