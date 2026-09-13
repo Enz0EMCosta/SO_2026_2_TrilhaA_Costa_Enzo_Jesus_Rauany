@@ -1,0 +1,349 @@
+Script started on 2026-09-12 19:05:58+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="119" LINES="37"]
+[?2004h]0;vboxuser@so2: ~/strace[01;32mvboxuser@so2[00m:[01;34m~/strace[00m$ [7mexport M="hf.co/google/gemma-4-E2B-it-qat-q4_0-gguf:latest"[27m
+[7m{ uname -a; free -h; nproc; df -h /; ollama --version; ollama list; sysctl kernel.yama.ptrace_scope; } | tee ambiente.t[27m[7mx[27m[7mt[27m[A[A]0;vboxuser@so2: ~/strace[01;32mvboxuser@so2[00m:[01;34m~/strace[00m$ export M="hf.co/google/gemma-4-E2B-it-qat-q4_0-gguf:latest"
+{ uname -a; free -h; nproc; df -h /; ollama --version; ollama list; sysctl kernel.yama.ptrace_scope; } | tee ambiente.txt
+[?2004lLinux so2 6.8.0-134-generic #134-Ubuntu SMP PREEMPT_DYNAMIC Fri Jun 26 18:43:11 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+               total        used        free      shared  buff/cache   available
+Mem:           7.8Gi       1.5Gi       4.5Gi       1.2Mi       1.9Gi       6.2Gi
+Swap:             0B          0B          0B
+4
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2        92G   25G   63G  29% /
+ollama version is 0.34.0
+NAME                                                ID              SIZE      MODIFIED   
+hf.co/google/gemma-4-E2B-it-qat-q4_0-gguf:latest    bf543bb2aa66    4.3 GB    2 days ago    
+kernel.yama.ptrace_scope = 0
+[?2004h]0;vboxuser@so2: ~/strace[01;32mvboxuser@so2[00m:[01;34m~/strace[00m$ [7mstrace -f -c -o strace-resumo-cliente.txt ollama run "$M" "Explique em uma frase o que e um proc[27m[7me[27m[7msso."[27m[A]0;vboxuser@so2: ~/strace[01;32mvboxuser@so2[00m:[01;34m~/strace[00m$ strace -f -c -o strace-resumo-cliente.txt ollama run "$M" "Explique em uma frase o que e um processo."
+[?2004l]11;?\[6n[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G[K[?25h[?2026l[?25l[2K[1G[?25h<|channel>[?25l[?25hthought[?25l[?25h
+[?25l[?25hThinking[?25l[?25h Process[?25l[?25h:[?25l[?25h
+
+[?25l[?25h1[?25l[?25h.[?25l[?25h  [?25l[?25h**[?25l[?25hAnalyze[?25l[?25h the[?25l[?25h Request[?25l[?25h:**[?25l[?25h The[?25l[?25h user[?25l[?25h wants[?25l[?25h a[?25l[?25h single[?25l[?25h-[?25l[?25hsentence[?25l[?25h explanation[?25l[?25h of[?25l[?25h what[?25l[?25h a[?25l[?25h "[?25l[?25hprocess[?25l[?25h"[?25l[?25h is[?25l[?25h.[?25l[?25h
+[?25l[?25h2[?25l[?25h.[?25l[?25h  [?25l[?25h**[?25l[?25hIdentify[?25l[?25h Key[?25l[?25h Concepts[?25l[?25h of[?25l[?25h a[?25l[?25h "[?25l[?25hProcess[?25l[?25h":[?25l[?25h**[?25l[?25h
+[?25l[?25h    [?25l[?25h*[?25l[?25h   [?25l[?25hSequence[?25l[?25h of[?25l[?25h steps[?25l[?25h.[?25l[?25h
+[?25l[?25h    [?25l[?25h*[?25l[?25h   [?25l[?25hActions[?25l[?25h taken[?25l[?25h to[?25l[?25h achieve[?25l[?25h an[?25l[?25h end[?25l[?25h.[?25l[?25h
+[?25l[?25h    [?25l[?25h*[?25l[?25h   [?25l[?25hTransformation[?25l[?25h ([?25l[?25hinput[?25l[?25h to[?25l[?25h output[?25l[?25h).[?25l[?25h
+[?25l[?25h    [?25l[?25h*[?25l[?25h   [?25l[?25hDuration[?25l[?25h/[?25l[?25hflow[?25l[?25h over[?25l[?25h time[?25l[?25h.[?25l[?25h
+[?25l[?25h3[?25l[?25h.[?25l[?25h  [?25l[?25h**[?25l[?25hDraft[?25l[?25h Potential[?25l[?25h Definitions[?25l[?25h ([?25l[?25hInternal[?25l[?25h Mon[?25l[?25hologue[?25l[?25h/[?25l[?25hFiltering[?25l[?25h):[?25l[?25h**[?25l[?25h
+[?25l[?25h    [?25l[?25h*[?25l[?25h   [?25l[?25h*[?25l[?25hDraft[?25l[?25h [?25l[?25h1[?25l[?25h ([?25l[?25hToo[?25l[?25h simple[?25l[?25h):[?25l[?25h*[?25l[?25h Um[?25l[?25h processo[?25l[?25h é[?25l[?25h um[?25l[?25h conjunto[?25l[?25h de[?25l[?25h passos[?25l[?25h.[?25l[?25h ([?25l[?25hToo[?25l[?25h basic[?25l[?25h).[?25l[?25h
+[?25l[?25h    [?25l[?25h*[?25l[?25h   [?25l[?25h*[?25l[?25hDraft[?25l[?25h [?25l[?25h2[?25l[?25h ([?25l[?25hFocus[?25l[?25h on[?25l[?25h action[?25l[?25h/[?25l[?25hgoal[?25l[?25h):[?25l[?25h*[?25l[?25h É[?25l[?25h uma[?25l[?25h sequência[?25l[?25h de[?25l[?25h atividades[?25l[?25h realizadas[?25l[?25h para[?25l[?25h converter[?25l[?25h ins[?25l[?25humos[?25l[?25h em[?25l[?25h um[?25l[?25h resultad[8D[K
+resultado[?25l[?25h específico[?25l[?25h.[?25l[?25h ([?25l[?25hGood[?25l[?25h,[?25l[?25h but[?25l[?25h slightly[?25l[?25h long[?25l[?25h).[?25l[?25h
+[?25l[?25h    [?25l[?25h*[?25l[?25h   [?25l[?25h*[?25l[?25hDraft[?25l[?25h [?25l[?25h3[?25l[?25h ([?25l[?25hFocus[?25l[?25h on[?25l[?25h flow[?25l[?25h and[?25l[?25h transformation[?25l[?25h):[?25l[?25h*[?25l[?25h Um[?25l[?25h processo[?25l[?25h é[?25l[?25h uma[?25l[?25h série[?25l[?25h ordenada[?25l[?25h de[?25l[?25h ações[?25l[?25h que[?25l[?25h transform[?25l[?25ham[?25l[?25h uma[?25l[?25h entr[4D[K
+entrada[?25l[?25h em[?25l[?25h uma[?25l[?25h saída[?25l[?25h desej[?25l[?25hada[?25l[?25h.[?25l[?25h ([?25l[?25hStrong[?25l[?25h,[?25l[?25h comprehensive[?25l[?25h).[?25l[?25h
+[?25l[?25h4[?25l[?25h.[?25l[?25h  [?25l[?25h**[?25l[?25hRef[?25l[?25hine[?25l[?25h and[?25l[?25h Select[?25l[?25h the[?25l[?25h Best[?25l[?25h Single[?25l[?25h Sentence[?25l[?25h:**[?25l[?25h The[?25l[?25h definition[?25l[?25h should[?25l[?25h capture[?25l[?25h the[?25l[?25h dynamic[?25l[?25h nature[?25l[?25h ([?25l[?25hsteps[?25l[?25h/[?25l[?25hactions[?25l[?25h)[?25l[?25h and[?25l[?25h[3D[K
+and the[?25l[?25h purpose[?25l[?25h ([?25l[?25htransformation[?25l[?25h/[?25l[?25hresult[?25l[?25h).[?25l[?25h
+
+[?25l[?25h5[?25l[?25h.[?25l[?25h  [?25l[?25h**[?25l[?25hFinal[?25l[?25h Polish[?25l[?25h ([?25l[?25hin[?25l[?25h Portuguese[?25l[?25h):[?25l[?25h**[?25l[?25h
+[?25l[?25h    [?25l[?25h*[?25l[?25h   [?25l[?25h"[?25l[?25hUm[?25l[?25h processo[?25l[?25h é[?25l[?25h uma[?25l[?25h sequência[?25l[?25h de[?25l[?25h atividades[?25l[?25h orden[?25l[?25hadas[?25l[?25h que[?25l[?25h transform[?25l[?25ham[?25l[?25h ins[?25l[?25humos[?25l[?25h em[?25l[?25h um[?25l[?25h resultado[?25l[?25h final[?25l[?25h desej[?25l[?25hado[?25l[?25h."[?25l[?25h ([?25l[?25hC[2D[K
+(Conc[?25l[?25hise[?25l[?25h and[?25l[?25h accurate[?25l[?25h).[?25l[?25h
+
+[?25l[?25h6[?25l[?25h.[?25l[?25h  [?25l[?25h**[?25l[?25hOutput[?25l[?25h Generation[?25l[?25h.**[?25l[?25h<channel|>[?25l[?25hUm[?25l[?25h processo[?25l[?25h é[?25l[?25h uma[?25l[?25h sequência[?25l[?25h de[?25l[?25h atividades[?25l[?25h orden[?25l[?25hadas[?25l[?25h que[?25l[?25h transform[?25l[?25ham[?25l[?25h ins[?25l[?25humos[?25l[?25h em[?25l[?25h um[?25l[?25h re[2D[K
+resultado[?25l[?25h final[?25l[?25h desej[?25l[?25hado[?25l[?25h.[?25l[?25h
+
+[?25l[?25h[?2004h]0;vboxuser@so2: ~/strace[01;32mvboxuser@so2[00m:[01;34m~/strace[00m$ [7mcat strace-resumo-cliente.txt[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat strace-resumo-cliente.txt
+[?2004l% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ------------------
+ 66.89    3.708640        1440      2575       442 futex
+ 14.08    0.780693         438      1779           epoll_pwait
+ 13.75    0.762293         278      2734           nanosleep
+  2.14    0.118837          54      2189         4 write
+  0.75    0.041508          59       700           ioctl
+  0.65    0.035774         154       231        11 rt_sigreturn
+  0.32    0.017647          46       381        62 read
+  0.15    0.008166         125        65           rt_sigprocmask
+  0.15    0.008054          35       229           tgkill
+  0.14    0.007762          81        95           mmap
+  0.14    0.007625         238        32           pselect6
+  0.13    0.007091          52       135           sched_yield
+  0.09    0.004863          21       229           getpid
+  0.07    0.003629         362        10           clone3
+  0.06    0.003581         162        22           sigaltstack
+  0.06    0.003528         168        21         4 openat
+  0.06    0.003306          61        54           pread64
+  0.06    0.003057          87        35        15 newfstatat
+  0.04    0.002446          84        29           mprotect
+  0.04    0.002282          50        45           sched_getaffinity
+  0.03    0.001854         168        11           munmap
+  0.03    0.001812         453         4           readlinkat
+  0.03    0.001803         163        11           gettid
+  0.03    0.001407         127        11           rseq
+  0.03    0.001404          36        39           prctl
+  0.02    0.001041          94        11           set_robust_list
+  0.02    0.001030         206         5           setsockopt
+  0.01    0.000764         191         4         2 epoll_ctl
+  0.01    0.000506         506         1           execve
+  0.01    0.000438          31        14           fcntl
+  0.01    0.000422         105         4           getdents64
+  0.01    0.000332         332         1           getsockopt
+  0.01    0.000328          82         4           prlimit64
+  0.01    0.000290          18        16           close
+  0.00    0.000135         135         1           getpeername
+  0.00    0.000126         126         1           getsockname
+  0.00    0.000076           0       114           rt_sigaction
+  0.00    0.000063           6        10           fstat
+  0.00    0.000052          17         3           brk
+  0.00    0.000043          43         1           epoll_create1
+  0.00    0.000041          41         1           eventfd2
+  0.00    0.000026          26         1         1 access
+  0.00    0.000001           1         1           arch_prctl
+  0.00    0.000001           1         1           set_tid_address
+  0.00    0.000001           1         1           getrandom
+  0.00    0.000000           0         2           madvise
+  0.00    0.000000           0         1           socket
+  0.00    0.000000           0         1         1 connect
+  0.00    0.000000           0         1           getpgid
+------ ----------- ----------- --------- --------- ------------------
+100.00    5.544778         467     11866       542 total
+[?2004h]0;vboxuser@so2: ~/strace[01;32mvboxuser@so2[00m:[01;34m~/strace[00m$ [7mstrace -f -e trace=network -o strace-rede.txt ollama run "$M" "oi"[27m
+[7mgrep -E "socket|connect" strace-rede.txt[27m[Astrace -f -e trace=network -o strace-rede.txt ollama run "$M" "oi"
+grep -E "socket|connect" strace-rede.txt
+[?2004l]11;?\[6n[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G[K[?25h[?2026l[?25l[2K[1G[?25hOlá[?25l[?25h![?25l[?25h Como[?25l[?25h posso[?25l[?25h ajudar[?25l[?25h você[?25l[?25h hoje[?25l[?25h?[?25l[?25h
+
+[?25l[?25h3778  [01;31m[Ksocket[m[K(AF_INET, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, IPPROTO_IP) = 4
+3778  [01;31m[Kconnect[m[K(4, {sa_family=AF_INET, sin_port=htons(11434), sin_addr=inet_addr("127.0.0.1")}, 16) = -1 EINPROGRESS (Operation now in progress)
+[?2004h]0;vboxuser@so2: ~/strace[01;32mvboxuser@so2[00m:[01;34m~/strace[00m$ [7msudo systemctl restart ollama[27m
+[7msleep 3[27m
+[7mpgrep -a ollama[27m[A[A]0;vboxuser@so2: ~/strace[01;32mvboxuser@so2[00m:[01;34m~/strace[00m$ sudo systemctl restart ollama
+sleep 3
+pgrep -a ollama
+[?2004l3940 /usr/local/bin/ollama serve
+[?2004h]0;vboxuser@so2: ~/strace[01;32mvboxuser@so2[00m:[01;34m~/strace[00m$ [7mcd ~/strace[27m
+[7msudo strace -f -e trace=openat,mmap,munmap,read,pread64 -o strace-pesos.txt -p 3940[27m[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ~/strace
+sudo strace -f -e trace=openat,mmap,munmap,read,pread64 -o strace-pesos.txt -p 3940
+[?2004lstrace: Process 3940 attached with 11 threads
+strace: Process 4163 attached
+strace: Process 4164 attached
+strace: Process 4165 attached
+strace: Process 4166 attached
+strace: Process 4167 attached
+strace: Process 4168 attached
+strace: Process 4169 attached
+strace: Process 4170 attached
+strace: Process 4171 attached
+strace: Process 4172 attached
+strace: Process 4173 attached
+strace: Process 4174 attached
+strace: Process 4175 attached
+^Cstrace: Process 3948 detached
+strace: Process 3949 detached
+strace: Process 3946 detached
+strace: Process 3945 detached
+strace: Process 3975 detached
+strace: Process 3974 detached
+strace: Process 3947 detached
+strace: Process 3944 detached
+strace: Process 3943 detached
+strace: Process 3942 detached
+strace: Process 3940 detached
+
+[?2004h]0;vboxuser@so2: ~/strace[01;32mvboxuser@so2[00m:[01;34m~/strace[00m$ [7msudo systemctl edit ollama[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo systemctl edit ollama
+[?2004l[?2004h[?1049h[22;0;0t[1;41r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[39;32H(B[0;7m[ Reading... ](B[m[39;30H(B[0;7m[ Read 23 lines ](B[m[H(B[0;7m/etc/systemd/system/ollama.service.d/.#override.conff526ab000c7f345e        [1;76H(B[m[40d(B[0;7m^G(B[m Help[40;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[40;61H(B[0;7m^T(B[m Execute[41d(B[0;7m^X(B[m Exit[41;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify[2d[36m### Editing /etc/systemd/system/ollama.service.d/override.conf[3d### Anything between here and the comment below will become the contents of[39m(B[0;7m>[7;1H(B[0m[36m### Edits below this comment will be discarded[10d### /etc/systemd/system/ollama.service[11d# [Unit][12d# Description=Ollama Service[13d# After=network-online.target[14d# [15d# [Service][16d# ExecStart=/usr/local/bin/ollama serve[17d# User=ollama[18d# Group=ollama[19d# Restart=always[20d# RestartSec=3[21d# Environment="PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin[39m(B[0;7m>[22;1H(B[0m[36m# [23d# [Install][24d# WantedBy=default.target[5d[39m(B[m[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d[?25l[?12l[?25h[19d[?25l[?12l[?25h[20d[?25l[?12l[?25h[21d[?25l[?12l[?25h[22d[?25l[39d[K[?12l[?25h[23d[?25l[?12l[?25h[24d[?25l[?12l[?25h[C[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[C[?25l[?12l[?25h[A[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[22;3H[?25l[1;70H(B[0;7m*[76G(B[m[22;3H[36mEnvironment="OLLAMA_LOAD_TIMEOUT=30m"[39m(B[m[?12l[?25h[?25l[40;16H    (B[0;7mM-D(B[m DOS Format     (B[0;7mM-A(B[m Append   [58G(B[0;7mM-B(B[m Backup File[41;2H(B[0;7mC(B[m Cancel[16G    (B[0;7mM-M(B[m Mac Format     (B[0;7mM-P(B[m Prepend        (B[0;7m^T(B[m Browse[K[39d(B[0;7mFile Name to Write:<26ab000c7f345e                                          [39;35H(B[m[?12l[?25h[?25l[?12l[?25h[?25l[1K (B[0;7m[ Cancelled ](B[m[K[40;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[58G   (B[0;7m^T(B[m Execute[K[41;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste       (B[0;7m^J(B[m Justify[?12l[?25h[22;40H[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[39d[K[?12l[?25h[22;20H [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[C[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[4;39r[4;1HM[1;41r[5;1H(B[0;1m[32m[Service][6d[39m(B[mEnvironment="OLLAMA_LOAD_TIMEOUT=30m"[?12l[?25h[?25l[40;16H    (B[0;7mM-D(B[m DOS Format     (B[0;7mM-A(B[m Append   [58G(B[0;7mM-B(B[m Backup File[41;2H(B[0;7mC(B[m Cancel[16G    (B[0;7mM-M(B[m Mac Format     (B[0;7mM-P(B[m Prepend        (B[0;7m^T(B[m Browse[K[39d(B[0;7mFile Name to Write:<26ab000c7f345e                                          [39;35H(B[m[?12l[?25h[?25l[1K (B[0;7m[ Writing... ](B[m[K[1;70H(B[0;7m [76G(B[m[39;30H(B[0;7m[ Wrote 24 lines ](B[m[40;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[58G   (B[0;7m^T(B[m Execute[K[41;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste       (B[0;7m^J(B[m Justify[?12l[?25h[6;38H[?25l[39d[J[41d[?12l[?25h[41;1H[?1049l[23;0;0t[?1l>[?2004lSuccessfully installed edited file '/etc/systemd/system/ollama.service.d/override.conf'.
+[?2004h]0;vboxuser@so2: ~/strace[01;32mvboxuser@so2[00m:[01;34m~/strace[00m$ [7msudo systemctl daemon-reload[27m
+[7msudo systemctl restart ollama[27m
+[7msleep 3[27m
+[7msystemctl show ollama -p Environment[27m
+[7mpgrep -a ollama[27m[A[A[A[A]0;vboxuser@so2: ~/strace[01;32mvboxuser@so2[00m:[01;34m~/strace[00m$ sudo systemctl daemon-reload
+sudo systemctl restart ollama
+sleep 3
+systemctl show ollama -p Environment
+pgrep -a ollama
+[?2004l[?1h=Environment=PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/b[m[7m>[27m
+[7mlines 1-1/1 (END)[27m[K[K[?1l>4617 /usr/local/bin/ollama serve
+[?2004h]0;vboxuser@so2: ~/strace[01;32mvboxuser@so2[00m:[01;34m~/strace[00m$ [7msystemctl show ollama -p Environment --no-pager | tr [27m[7m'[27m[7m ' '\n'[27m[A]0;vboxuser@so2: ~/strace[01;32mvboxuser@so2[00m:[01;34m~/strace[00m$ systemctl show ollama -p Environment --no-pager | tr ' ' '\n'
+[?2004lEnvironment=PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+OLLAMA_LOAD_TIMEOUT=30m
+[?2004h]0;vboxuser@so2: ~/strace[01;32mvboxuser@so2[00m:[01;34m~/strace[00m$ [7mcd ~/strace[27m
+[7msudo strace -f -e trace=openat,mmap -o strace-pesos.txt -p 4617[27m[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ~/strace
+sudo strace -f -e trace=openat,mmap -o strace-pesos.txt -p 4617
+[?2004lstrace: Process 4617 attached with 10 threads
+strace: Process 4788 attached
+strace: Process 4789 attached
+strace: Process 4790 attached
+strace: Process 4791 attached
+strace: Process 4792 attached
+strace: Process 4793 attached
+strace: Process 4794 attached
+strace: Process 4795 attached
+strace: Process 4796 attached
+strace: Process 4797 attached
+strace: Process 4819 attached
+strace: Process 4820 attached
+strace: Process 4821 attached
+strace: Process 4844 attached
+strace: Process 4847 attached
+^Cstrace: Process 4821 detached
+strace: Process 4797 detached
+strace: Process 4820 detached
+strace: Process 4796 detached
+strace: Process 4795 detached
+strace: Process 4847 detached
+strace: Process 4844 detached
+strace: Process 4819 detached
+strace: Process 4794 detached
+strace: Process 4793 detached
+strace: Process 4792 detached
+strace: Process 4791 detached
+strace: Process 4790 detached
+strace: Process 4788 detached
+strace: Process 4636 detached
+strace: Process 4626 detached
+strace: Process 4625 detached
+strace: Process 4624 detached
+strace: Process 4623 detached
+strace: Process 4622 detached
+strace: Process 4621 detached
+strace: Process 4620 detached
+strace: Process 4619 detached
+strace: Process 4617 detached
+
+[?2004h]0;vboxuser@so2: ~/strace[01;32mvboxuser@so2[00m:[01;34m~/strace[00m$ [7mwc -l strace-pesos.txt[27m
+[7mgrep -E "blobs|gguf" strace-pesos.txt | head -20[27m
+[7mgrep "mmap" strace-pesos.txt | tail -20[27m[A[Awc -l strace-pesos.txt
+grep -E "blobs|gguf" strace-pesos.txt | head -20
+grep "mmap" strace-pesos.txt | tail -20
+[?2004l793 strace-pesos.txt
+4621  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/manifests/hf.co/google/gemma-4-E2B-it-qat-q4_0-gguf", O_RDONLY|O_CLOEXEC) = 8
+4621  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/manifests/hf.co/google/gemma-4-E2B-it-qat-q4_0-gguf/latest", O_RDONLY|O_CLOEXEC) = 8
+4620  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/manifests/hf.co/google/gemma-4-E2B-it-qat-q4_0-gguf", O_RDONLY|O_CLOEXEC) = 8
+4620  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/manifests/hf.co/google/gemma-4-E2B-it-qat-q4_0-gguf/latest", O_RDONLY|O_CLOEXEC) = 8
+4620  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/manifests/hf.co/google/gemma-4-E2B-it-qat-q4_0-gguf/latest", O_RDONLY|O_CLOEXEC) = 8
+4620  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/manifests/hf.co/google/gemma-4-E2B-it-qat-q4_0-gguf", O_RDONLY|O_CLOEXEC) = 8
+4625  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/manifests/hf.co/google/gemma-4-E2B-it-qat-q4_0-gguf/latest", O_RDONLY|O_CLOEXEC) = 8
+4625  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/manifests/hf.co/google/gemma-4-E2B-it-qat-q4_0-gguf/latest", O_RDONLY|O_CLOEXEC) = 8
+4625  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/blobs/sha256-bf8a3117f06d947ad407b67ea1a0182ccbd89e4de1eb58fb4a1344afd688ab9a", O_RDONLY|O_CLOEXEC) = 8
+4625  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/blobs/sha256-fa401b55b07ee70a54c6dae3903c783a6e65064312529ea57175cb5f8dec6634", O_RDONLY|O_CLOEXEC) = 9
+4621  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/blobs/sha256-f56e8459650d8354cf701fa5b0ddaea9a7986a271d7f55677152d1355ab5afb6", O_RDONLY|O_CLOEXEC) = 9
+4621  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/blobs/sha256-f5107f3ab6b0815958755af9391fb4149e62d2cd3535f3a4ecbd3c3938d47d3e", O_RDONLY|O_CLOEXEC) = 9
+4621  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/manifests/hf.co/google/gemma-4-E2B-it-qat-q4_0-gguf/latest", O_RDONLY|O_CLOEXEC) = 8
+4621  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/blobs/sha256-fa401b55b07ee70a54c6dae3903c783a6e65064312529ea57175cb5f8dec6634", O_RDONLY|O_CLOEXEC) = 8
+4622  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/blobs/sha256-021059cce659fe7f9170d5599761d7bbaf644b798dab9503aca30dc43e6beb14", O_RDONLY|O_CLOEXEC) = 8
+4622  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/blobs/sha256-fa401b55b07ee70a54c6dae3903c783a6e65064312529ea57175cb5f8dec6634", O_RDONLY|O_CLOEXEC) = 8
+4622  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/blobs/sha256-021059cce659fe7f9170d5599761d7bbaf644b798dab9503aca30dc43e6beb14", O_RDONLY|O_CLOEXEC) = 8
+4636  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/blobs/sha256-fa401b55b07ee70a54c6dae3903c783a6e65064312529ea57175cb5f8dec6634", O_RDONLY|O_CLOEXEC) = 8
+4636  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/blobs/sha256-021059cce659fe7f9170d5599761d7bbaf644b798dab9503aca30dc43e6beb14", O_RDONLY|O_CLOEXEC) = 8
+4622  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/manifests/hf.co/google/gemma-4-E2B-it-qat-q4_0-gguf", O_RDONLY|O_CLOEXEC) = 8
+4788  mmap(NULL, 16478208, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x735a6c88f000
+4788  mmap(NULL, 87683072, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x735a6945e000
+4788  mmap(NULL, 2616033280, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x735988128000
+4788  mmap(NULL, 1047973888, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7359499bb000
+4788  mmap(NULL, 25169920, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x735a6cffc000
+4788  mmap(NULL, 87683072, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x735a67c5d000
+4788  mmap(NULL, 120086528, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x735a50d7a000
+4788  mmap(NULL, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x735a6745c000
+4788  mmap(NULL, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x735a66c5b000
+4788  mmap(NULL, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x735a6645a000
+4788  mmap(NULL, 165482496, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x735a46fa9000
+4788  mmap(NULL, 369831936, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x735a30ef6000
+4788  mmap(NULL, 106188800, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x735943476000
+4788  mmap(NULL, 165482496, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7359396a5000
+4788  mmap(NULL, 619253760, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x735914814000
+4788  mmap(NULL, 106110976, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x73590e2e2000
+4788  mmap(NULL, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x735a65c59000
+4620  mmap(NULL, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x78150b7ff000
+4847  mmap(NULL, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x781503600000
+4844  mmap(0x735a28000000, 67108864, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x735a28000000
+[?2004h]0;vboxuser@so2: ~/strace[01;32mvboxuser@so2[00m:[01;34m~/strace[00m$ [7mcd ~/strace[27m
+[7msudo strace -f -e trace=read,pread64 -e status=successful -o strace-leitura.[27m[7mt[27m[7mxt -p 4617[27m[A[A]0;vboxuser@so2: ~/strace[01;32mvboxuser@so2[00m:[01;34m~/strace[00m$ cd ~/strace
+sudo strace -f -e trace=read,pread64 -e status=successful -o strace-leitura.txt -p 4617
+[?2004lstrace: Process 4617 attached with 11 threads
+^Cstrace: Process 4625 detached
+strace: Process 4619 detached
+strace: Process 4847 detached
+strace: Process 4617 detached
+strace: Process 4626 detached
+strace: Process 4624 detached
+strace: Process 4623 detached
+strace: Process 4621 detached
+strace: Process 4636 detached
+strace: Process 4620 detached
+strace: Process 4622 detached
+
+[?2004h]0;vboxuser@so2: ~/strace[01;32mvboxuser@so2[00m:[01;34m~/strace[00m$ [7mgrep -E "pread64\(8|pread64\(9|read\(8|read\(9" strac[27m[7me[27m[7m-leitura.txt | head -10 [27m
+[7mwc -l strace-leitura.txt[27m[A[Agrep -E "pread64\(8|pread64\(9|read\(8|read\(9" strace-leitura.txt | head -10
+wc -l strace-leitura.txt
+[?2004l4847  read(8, "{\"schemaVersion\":2,\"mediaType\":\""..., 512) = 512
+4847  read(8, "pplication/vnd.ollama.image.temp"..., 1024) = 351
+4626  read(8, "{\"schemaVersion\":2,\"mediaType\":\""..., 512) = 512
+4626  read(8, "pplication/vnd.ollama.image.temp"..., 1024) = 351
+4626  read(8, "{\"schemaVersion\":2,\"mediaType\":\""..., 512) = 512
+4626  read(8, "pplication/vnd.ollama.image.temp"..., 1024) = 351
+4847  read(8, "{\"schemaVersion\":2,\"mediaType\":\""..., 512) = 512
+4847  read(8, "pplication/vnd.ollama.image.temp"..., 1024) = 351
+4847  read(8, "{\"schemaVersion\":2,\"mediaType\":\""..., 512) = 512
+4847  read(8, "pplication/vnd.ollama.image.temp"..., 1024) = 351
+56 strace-leitura.txt
+[?2004h]0;vboxuser@so2: ~/strace[01;32mvboxuser@so2[00m:[01;34m~/strace[00m$ [7msudo strace -f -e trace=read,pread64,openat -e status[27m[7m=[27m[7msuccessful -o strace-leitura.txt -p PID_NOVO[27m[Asudo strace -f -e trace=read,pread64,openat -e status=successful -o strace-leitura.txt -p PID_NOVO
+[?2004lstrace: Invalid process id: 'PID_NOVO'
+[?2004h]0;vboxuser@so2: ~/strace[01;32mvboxuser@so2[00m:[01;34m~/strace[00m$ [7msudo strace -f -e trace=read,pread64,openat -e status[27m[7m=[27m[7msuccessful -o strace-leitura.txt -p PID_NOVO[27m[Asudo strace -f -e trace=read,pread64,openat -e status=successful -o strace-leitura.txt -p PID_NOVO[K[K[K[K[K[K[K[K5136
+[?2004lstrace: Process 5136 attached with 10 threads
+strace: Process 5256 attached
+strace: Process 5257 attached
+strace: Process 5258 attached
+strace: Process 5259 attached
+strace: Process 5260 attached
+strace: Process 5261 attached
+strace: Process 5262 attached
+strace: Process 5263 attached
+strace: Process 5264 attached
+strace: Process 5265 attached
+strace: Process 5266 attached
+strace: Process 5267 attached
+strace: Process 5268 attached
+strace: Process 5269 attached
+strace: Process 5270 attached
+^Cstrace: Process 5270 detached
+strace: Process 5269 detached
+strace: Process 5268 detached
+strace: Process 5266 detached
+strace: Process 5264 detached
+strace: Process 5267 detached
+strace: Process 5265 detached
+strace: Process 5263 detached
+strace: Process 5262 detached
+strace: Process 5261 detached
+strace: Process 5260 detached
+strace: Process 5259 detached
+strace: Process 5258 detached
+strace: Process 5256 detached
+strace: Process 5168 detached
+strace: Process 5147 detached
+strace: Process 5146 detached
+strace: Process 5145 detached
+strace: Process 5144 detached
+strace: Process 5143 detached
+strace: Process 5142 detached
+strace: Process 5141 detached
+strace: Process 5140 detached
+strace: Process 5136 detached
+
+[?2004h]0;vboxuser@so2: ~/strace[01;32mvboxuser@so2[00m:[01;34m~/strace[00m$ [7mwc -l strace-leitura.txt[27m
+[7mgrep -E "read\(|pread64\(" strace-leitura.txt | awk '{print $NF}' | sort -n [27m[7m|[27m[7m tail -10[27m[A[A]0;vboxuser@so2: ~/strace[01;32mvboxuser@so2[00m:[01;34m~/strace[00m$ wc -l strace-leitura.txt
+grep -E "read\(|pread64\(" strace-leitura.txt | awk '{print $NF}' | sort -n | tail -10
+[?2004l16140 strace-leitura.txt
+10612736
+10612736
+10612736
+10612736
+10612736
+27525120
+62914560
+330301440
+330301440
+1926758400
+[?2004h]0;vboxuser@so2: ~/strace[01;32mvboxuser@so2[00m:[01;34m~/strace[00m$ [7mgrep -E "read\(|pread64\(" strace-leitura.txt | awk '[27m[7m{[27m[7mprint $NF}' | sort -n | tail -20 > maiores-leituras.txt [27m
+[7mls -la ~/strace[27m
+[7mexit[27m[A[A[A]0;vboxuser@so2: ~/strace[01;32mvboxuser@so2[00m:[01;34m~/strace[00m$ grep -E "read\(|pread64\(" strace-leitura.txt | awk '{print $NF}' | sort -n | tail -20 > maiores-leituras.txt
+ls -la ~/strace
+exit
+[?2004ltotal 1844
+drwxrwxr-x  2 vboxuser vboxuser    4096 Sep 12 19:53 [0m[01;34m.[0m
+drwxr-x--- 10 vboxuser vboxuser    4096 Sep 12 19:39 [01;34m..[0m
+-rw-rw-r--  1 vboxuser vboxuser     655 Sep 12 19:06 ambiente.txt
+-rw-rw-r--  1 vboxuser vboxuser     184 Sep 12 19:53 maiores-leituras.txt
+-rw-rw-r--  1 vboxuser vboxuser   49152 Sep 12 19:51 sessao-completa.txt
+-rw-r--r--  1 root     root     1710219 Sep 12 19:51 strace-leitura.txt
+-rw-r--r--  1 root     root       74267 Sep 12 19:44 strace-pesos.txt
+-rw-rw-r--  1 vboxuser vboxuser   17057 Sep 12 19:19 strace-rede.txt
+-rw-rw-r--  1 vboxuser vboxuser    3209 Sep 12 19:12 strace-resumo-cliente.txt
+exit
+
+Script done on 2026-09-12 19:53:30+00:00 [COMMAND_EXIT_CODE="0"]

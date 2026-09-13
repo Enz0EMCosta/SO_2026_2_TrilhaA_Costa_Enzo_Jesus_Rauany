@@ -1,0 +1,793 @@
+4621  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/manifests", O_RDONLY|O_CLOEXEC) = 8
+4621  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/manifests/hf.co", O_RDONLY|O_CLOEXEC) = 8
+4621  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4621  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/manifests/hf.co/google", O_RDONLY|O_CLOEXEC) = 8
+4621  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/manifests/hf.co/google/gemma-4-E2B-it-qat-q4_0-gguf", O_RDONLY|O_CLOEXEC) = 8
+4621  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4621  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/manifests/hf.co/google/gemma-4-E2B-it-qat-q4_0-gguf/latest", O_RDONLY|O_CLOEXEC) = 8
+4621  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/manifests", O_RDONLY|O_CLOEXEC) = 8
+4621  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4621  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/manifests/hf.co", O_RDONLY|O_CLOEXEC) = 8
+4621  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/manifests/hf.co/google", O_RDONLY|O_CLOEXEC) = 8
+4621  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4620  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/manifests/hf.co/google/gemma-4-E2B-it-qat-q4_0-gguf", O_RDONLY|O_CLOEXEC) = 8
+4620  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/manifests/hf.co/google/gemma-4-E2B-it-qat-q4_0-gguf/latest", O_RDONLY|O_CLOEXEC) = 8
+4620  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4620  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/manifests/hf.co/google/gemma-4-E2B-it-qat-q4_0-gguf/latest", O_RDONLY|O_CLOEXEC) = 8
+4620  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/manifests", O_RDONLY|O_CLOEXEC) = 8
+4620  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/manifests/hf.co", O_RDONLY|O_CLOEXEC) = 8
+4620  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/manifests/hf.co/google", O_RDONLY|O_CLOEXEC) = 8
+4620  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/manifests/hf.co/google/gemma-4-E2B-it-qat-q4_0-gguf", O_RDONLY|O_CLOEXEC) = 8
+4620  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/manifests/hf.co/google/gemma-4-E2B-it-qat-q4_0-gguf/latest", O_RDONLY|O_CLOEXEC) = 8
+4625  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/manifests/hf.co/google/gemma-4-E2B-it-qat-q4_0-gguf/latest", O_RDONLY|O_CLOEXEC) = 8
+4625  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/blobs/sha256-bf8a3117f06d947ad407b67ea1a0182ccbd89e4de1eb58fb4a1344afd688ab9a", O_RDONLY|O_CLOEXEC) = 8
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4620  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/blobs/sha256-fa401b55b07ee70a54c6dae3903c783a6e65064312529ea57175cb5f8dec6634", O_RDONLY|O_CLOEXEC) = 9
+4625  mmap(0xbbec6800000, 4194304, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xbbec6800000
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4620  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4620  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  mmap(NULL, 65536, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x78153412e000
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  mmap(0xbbec6c00000, 4194304, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xbbec6c00000
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4620  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  mmap(NULL, 65536, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x78153411e000
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  mmap(0xbbec7000000, 8388608, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xbbec7000000
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  mmap(NULL, 65536, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x78153410e000
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  mmap(0xbbec7800000, 4194304, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xbbec7800000
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7815340ce000
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  mmap(NULL, 65536, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7815340be000
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  mmap(0xbbec7c00000, 4194304, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xbbec7c00000
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  mmap(NULL, 65536, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7815340ae000
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4621  mmap(0xbbec8000000, 67108864, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xbbec8000000
+4621  mmap(NULL, 69648, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x78153409c000
+4621  mmap(0xbbec8000000, 4194304, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xbbec8000000
+4621  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/blobs/sha256-f56e8459650d8354cf701fa5b0ddaea9a7986a271d7f55677152d1355ab5afb6", O_RDONLY|O_CLOEXEC) = 9
+4621  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/blobs/sha256-f5107f3ab6b0815958755af9391fb4149e62d2cd3535f3a4ecbd3c3938d47d3e", O_RDONLY|O_CLOEXEC) = 9
+4621  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/manifests/hf.co/google/gemma-4-E2B-it-qat-q4_0-gguf/latest", O_RDONLY|O_CLOEXEC) = 8
+4621  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/blobs/sha256-fa401b55b07ee70a54c6dae3903c783a6e65064312529ea57175cb5f8dec6634", O_RDONLY|O_CLOEXEC) = 8
+4621  mmap(0xbbec8400000, 4194304, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xbbec8400000
+4621  mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x78153405c000
+4621  mmap(NULL, 65536, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x78153404c000
+4621  mmap(0xbbec8800000, 4194304, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xbbec8800000
+4621  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4621  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  mmap(NULL, 65536, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x78153403c000
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4621  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4621  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  mmap(NULL, 65536, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x78153402c000
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4621  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  mmap(NULL, 65536, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x78153401c000
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  mmap(NULL, 65536, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x78153400c000
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/blobs/sha256-021059cce659fe7f9170d5599761d7bbaf644b798dab9503aca30dc43e6beb14", O_RDONLY|O_CLOEXEC) = 8
+4622  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/blobs/sha256-fa401b55b07ee70a54c6dae3903c783a6e65064312529ea57175cb5f8dec6634", O_RDONLY|O_CLOEXEC) = 8
+4622  mmap(0xbbec8c00000, 4194304, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xbbec8c00000
+4622  mmap(NULL, 65536, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x78152c7e9000
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4621  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4621  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4621  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4621  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4621  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4621  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4621  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4621  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4621  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4621  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/blobs/sha256-021059cce659fe7f9170d5599761d7bbaf644b798dab9503aca30dc43e6beb14", O_RDONLY|O_CLOEXEC) = 8
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/blobs/sha256-fa401b55b07ee70a54c6dae3903c783a6e65064312529ea57175cb5f8dec6634", O_RDONLY|O_CLOEXEC) = 8
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/blobs/sha256-021059cce659fe7f9170d5599761d7bbaf644b798dab9503aca30dc43e6beb14", O_RDONLY|O_CLOEXEC) = 8
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4626  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/manifests", O_RDONLY|O_CLOEXEC) = 8
+4622  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/manifests/hf.co", O_RDONLY|O_CLOEXEC) = 8
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/manifests/hf.co/google", O_RDONLY|O_CLOEXEC) = 8
+4622  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/manifests/hf.co/google/gemma-4-E2B-it-qat-q4_0-gguf", O_RDONLY|O_CLOEXEC) = 8
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/manifests/hf.co/google/gemma-4-E2B-it-qat-q4_0-gguf/latest", O_RDONLY|O_CLOEXEC) = 8
+4636  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/manifests/hf.co/google/gemma-4-E2B-it-qat-q4_0-gguf/latest", O_RDONLY|O_CLOEXEC) = 8
+4636  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/manifests/hf.co/google/gemma-4-E2B-it-qat-q4_0-gguf/latest", O_RDONLY|O_CLOEXEC) = 8
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/blobs/sha256-bf8a3117f06d947ad407b67ea1a0182ccbd89e4de1eb58fb4a1344afd688ab9a", O_RDONLY|O_CLOEXEC) = 8
+4636  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/blobs/sha256-fa401b55b07ee70a54c6dae3903c783a6e65064312529ea57175cb5f8dec6634", O_RDONLY|O_CLOEXEC) = 9
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4620  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4620  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4621  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4621  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4621  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4620  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4620  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4620  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4620  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4621  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4621  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4621  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4621  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4621  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/blobs/sha256-f56e8459650d8354cf701fa5b0ddaea9a7986a271d7f55677152d1355ab5afb6", O_RDONLY|O_CLOEXEC) = 9
+4622  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/blobs/sha256-f5107f3ab6b0815958755af9391fb4149e62d2cd3535f3a4ecbd3c3938d47d3e", O_RDONLY|O_CLOEXEC) = 9
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/blobs/sha256-fa401b55b07ee70a54c6dae3903c783a6e65064312529ea57175cb5f8dec6634", O_RDONLY|O_CLOEXEC) = 8
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4621  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4621  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4620  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4620  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4621  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4620  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4621  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4621  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/blobs/sha256-021059cce659fe7f9170d5599761d7bbaf644b798dab9503aca30dc43e6beb14", O_RDONLY|O_CLOEXEC) = 8
+4636  openat(AT_FDCWD, "/proc/meminfo", O_RDONLY|O_CLOEXEC) = 8
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  openat(AT_FDCWD, "/sys/fs/cgroup/memory.max", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+4636  openat(AT_FDCWD, "/sys/fs/cgroup/memory.current", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+4636  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/blobs/sha256-fa401b55b07ee70a54c6dae3903c783a6e65064312529ea57175cb5f8dec6634", O_RDONLY|O_CLOEXEC) = 8
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4636  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/blobs/sha256-021059cce659fe7f9170d5599761d7bbaf644b798dab9503aca30dc43e6beb14", O_RDONLY|O_CLOEXEC) = 8
+4636  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4620  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  openat(AT_FDCWD, "/dev/null", O_RDONLY|O_CLOEXEC) = 8
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4788  mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x735a77f57000
+4788  openat(AT_FDCWD, "/usr/local/lib/ollama/glibc-hwcaps/x86-64-v3/libllama-server-impl.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+4788  openat(AT_FDCWD, "/usr/local/lib/ollama/glibc-hwcaps/x86-64-v2/libllama-server-impl.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+4788  openat(AT_FDCWD, "/usr/local/lib/ollama/libllama-server-impl.so", O_RDONLY|O_CLOEXEC) = 3
+4788  mmap(NULL, 2777672, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x735a77c00000
+4788  mmap(0x735a77c7c000, 1818624, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7c000) = 0x735a77c7c000
+4788  mmap(0x735a77e38000, 413696, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x238000) = 0x735a77e38000
+4788  mmap(0x735a77e9d000, 36864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x29c000) = 0x735a77e9d000
+4788  mmap(0x735a77ea6000, 584, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x735a77ea6000
+4788  openat(AT_FDCWD, "/usr/local/lib/ollama/libllama-common.so.0", O_RDONLY|O_CLOEXEC) = 3
+4788  mmap(NULL, 4354032, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x735a77600000
+4788  mmap(0x735a776a7000, 2781184, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa7000) = 0x735a776a7000
+4788  mmap(0x735a7794e000, 708608, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x34e000) = 0x735a7794e000
+4788  mmap(0x735a779fb000, 49152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3fa000) = 0x735a779fb000
+4788  mmap(0x735a77a07000, 131056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x735a77a07000
+4788  openat(AT_FDCWD, "/usr/local/lib/ollama/libmtmd.so.0", O_RDONLY|O_CLOEXEC) = 3
+4788  mmap(NULL, 1857896, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x735a77a3a000
+4788  mmap(0x735a77a62000, 1425408, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x28000) = 0x735a77a62000
+4788  mmap(0x735a77bbe000, 245760, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x184000) = 0x735a77bbe000
+4788  mmap(0x735a77bfa000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bf000) = 0x735a77bfa000
+4788  mmap(0x735a77bff000, 2408, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x735a77bff000
+4788  openat(AT_FDCWD, "/usr/local/lib/ollama/libllama.so.0", O_RDONLY|O_CLOEXEC) = 3
+4788  mmap(NULL, 4032968, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x735a77200000
+4788  mmap(0x735a772ab000, 2650112, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xab000) = 0x735a772ab000
+4788  mmap(0x735a77532000, 610304, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x332000) = 0x735a77532000
+4788  mmap(0x735a775c7000, 69632, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3c6000) = 0x735a775c7000
+4788  mmap(0x735a775d8000, 2504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x735a775d8000
+4788  openat(AT_FDCWD, "/usr/local/lib/ollama/libggml.so.0", O_RDONLY|O_CLOEXEC) = 3
+4788  mmap(NULL, 222896, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x735a77f20000
+4788  mmap(0x735a77f29000, 143360, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x9000) = 0x735a77f29000
+4788  mmap(0x735a77f4c000, 36864, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2c000) = 0x735a77f4c000
+4788  mmap(0x735a77f55000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x34000) = 0x735a77f55000
+4788  openat(AT_FDCWD, "/usr/local/lib/ollama/libggml-base.so.0", O_RDONLY|O_CLOEXEC) = 3
+4788  mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x735a77f1e000
+4788  mmap(NULL, 828656, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x735a77135000
+4788  mmap(0x735a7714b000, 577536, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16000) = 0x735a7714b000
+4788  mmap(0x735a771d8000, 147456, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa3000) = 0x735a771d8000
+4788  mmap(0x735a771fc000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xc6000) = 0x735a771fc000
+4788  openat(AT_FDCWD, "/usr/local/lib/ollama/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+4788  openat(AT_FDCWD, "/usr/local/lib/ollama/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+4788  openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+4788  mmap(NULL, 30039, PROT_READ, MAP_PRIVATE, 3, 0) = 0x735a77f16000
+4788  openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+4788  mmap(NULL, 16400, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x735a77f11000
+4788  mmap(0x735a77f12000, 4096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x735a77f12000
+4788  mmap(0x735a77f13000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x735a77f13000
+4788  mmap(0x735a77f14000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x735a77f14000
+4788  openat(AT_FDCWD, "/usr/local/lib/ollama/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+4788  openat(AT_FDCWD, "/usr/local/lib/ollama/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+4788  openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 3
+4788  mmap(NULL, 2609472, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x735a76e00000
+4788  mmap(0x735a76e9d000, 1343488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x9d000) = 0x735a76e9d000
+4788  mmap(0x735a76fe5000, 552960, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e5000) = 0x735a76fe5000
+4788  mmap(0x735a7706c000, 57344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x26b000) = 0x735a7706c000
+4788  mmap(0x735a7707a000, 12608, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x735a7707a000
+4788  openat(AT_FDCWD, "/usr/local/lib/ollama/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+4788  openat(AT_FDCWD, "/usr/local/lib/ollama/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+4788  openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+4788  mmap(NULL, 950296, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x735a76d17000
+4788  mmap(0x735a76d27000, 520192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x10000) = 0x735a76d27000
+4788  mmap(0x735a76da6000, 360448, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x8f000) = 0x735a76da6000
+4788  mmap(0x735a76dfe000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xe7000) = 0x735a76dfe000
+4788  openat(AT_FDCWD, "/usr/local/lib/ollama/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+4788  openat(AT_FDCWD, "/usr/local/lib/ollama/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+4788  openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+4788  mmap(NULL, 185256, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x735a77ee3000
+4788  mmap(0x735a77ee7000, 147456, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x735a77ee7000
+4788  mmap(0x735a77f0b000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x28000) = 0x735a77f0b000
+4788  mmap(0x735a77f0f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2b000) = 0x735a77f0f000
+4788  openat(AT_FDCWD, "/usr/local/lib/ollama/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+4788  openat(AT_FDCWD, "/usr/local/lib/ollama/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+4788  openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+4788  mmap(NULL, 2170256, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x735a76a00000
+4788  mmap(0x735a76a28000, 1605632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x28000) = 0x735a76a28000
+4788  mmap(0x735a76bb0000, 323584, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b0000) = 0x735a76bb0000
+4788  mmap(0x735a76bff000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1fe000) = 0x735a76bff000
+4788  mmap(0x735a76c05000, 52624, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x735a76c05000
+4788  mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x735a77ee1000
+4788  openat(AT_FDCWD, "/usr/local/lib/ollama/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+4788  openat(AT_FDCWD, "/usr/local/lib/ollama/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+4788  openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+4788  mmap(NULL, 16400, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x735a77edc000
+4788  mmap(0x735a77edd000, 4096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x735a77edd000
+4788  mmap(0x735a77ede000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x735a77ede000
+4788  mmap(0x735a77edf000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x735a77edf000
+4788  mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x735a77eda000
+4788  mmap(NULL, 45056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x735a77ecf000
+4788  mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x735a77ecd000
+4788  mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x735a77eca000
+4788  mmap(NULL, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x735a761ff000
+4789  mmap(NULL, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x735a6e000000
+4789  +++ exited with 0 +++
+4788  mmap(NULL, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x735a759fe000
+4788  openat(AT_FDCWD, "/usr/local/lib/ollama/", O_RDONLY|O_CLOEXEC|O_DIRECTORY) = 3
+4788  openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_DIRECTORY) = 3
+4788  openat(AT_FDCWD, "/usr/local/lib/ollama/", O_RDONLY|O_CLOEXEC|O_DIRECTORY) = 3
+4788  openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_DIRECTORY) = 3
+4788  openat(AT_FDCWD, "/usr/local/lib/ollama/", O_RDONLY|O_CLOEXEC|O_DIRECTORY) = 3
+4788  openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_DIRECTORY) = 3
+4788  openat(AT_FDCWD, "/usr/local/lib/ollama/", O_RDONLY|O_CLOEXEC|O_DIRECTORY) = 3
+4788  openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_DIRECTORY) = 3
+4788  openat(AT_FDCWD, "/usr/local/lib/ollama/", O_RDONLY|O_CLOEXEC|O_DIRECTORY) = 3
+4788  openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_DIRECTORY) = 3
+4788  openat(AT_FDCWD, "/usr/local/lib/ollama/", O_RDONLY|O_CLOEXEC|O_DIRECTORY) = 3
+4788  openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_DIRECTORY) = 3
+4788  openat(AT_FDCWD, "/usr/local/lib/ollama/", O_RDONLY|O_CLOEXEC|O_DIRECTORY) = 3
+4788  openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_DIRECTORY) = 3
+4788  openat(AT_FDCWD, "/usr/local/lib/ollama/", O_RDONLY|O_CLOEXEC|O_DIRECTORY) = 3
+4788  openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_DIRECTORY) = 3
+4788  openat(AT_FDCWD, "/usr/local/lib/ollama/", O_RDONLY|O_CLOEXEC|O_DIRECTORY) = 3
+4788  openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_DIRECTORY) = 3
+4788  openat(AT_FDCWD, "/usr/local/lib/ollama/", O_RDONLY|O_CLOEXEC|O_DIRECTORY) = 3
+4788  openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_DIRECTORY) = 3
+4788  openat(AT_FDCWD, "/usr/local/lib/ollama/", O_RDONLY|O_CLOEXEC|O_DIRECTORY) = 3
+4788  openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_DIRECTORY) = 3
+4788  openat(AT_FDCWD, "/usr/local/lib/ollama/", O_RDONLY|O_CLOEXEC|O_DIRECTORY) = 3
+4788  openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_DIRECTORY) = 3
+4788  openat(AT_FDCWD, "/usr/local/lib/ollama/", O_RDONLY|O_CLOEXEC|O_DIRECTORY) = 3
+4788  openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_DIRECTORY) = 3
+4788  openat(AT_FDCWD, "/usr/local/lib/ollama/", O_RDONLY|O_CLOEXEC|O_DIRECTORY) = 3
+4788  openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_DIRECTORY) = 3
+4788  openat(AT_FDCWD, "/usr/local/lib/ollama/", O_RDONLY|O_CLOEXEC|O_DIRECTORY) = 3
+4788  openat(AT_FDCWD, "/usr/local/lib/ollama/libggml-cpu-sandybridge.so", O_RDONLY|O_CLOEXEC) = 4
+4788  mmap(NULL, 1579520, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x735a7587c000
+4788  mmap(0x735a7588e000, 794624, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x12000) = 0x735a7588e000
+4788  mmap(0x735a75950000, 159744, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0xd4000) = 0x735a75950000
+4788  mmap(0x735a75977000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0xfb000) = 0x735a75977000
+4788  mmap(0x735a75979000, 543232, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x735a75979000
+4788  openat(AT_FDCWD, "/usr/local/lib/ollama/libggml-cpu-icelake.so", O_RDONLY|O_CLOEXEC) = 4
+4788  mmap(NULL, 1874432, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x735a75834000
+4788  mmap(0x735a75846000, 1081344, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x12000) = 0x735a75846000
+4788  mmap(0x735a7594e000, 167936, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x11a000) = 0x735a7594e000
+4788  mmap(0x735a75977000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x143000) = 0x735a75977000
+4788  mmap(0x735a75979000, 543232, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x735a75979000
+4788  openat(AT_FDCWD, "/usr/local/lib/ollama/libggml-cpu-haswell.so", O_RDONLY|O_CLOEXEC) = 4
+4788  mmap(NULL, 1653152, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x735a7586a000
+4788  mmap(0x735a7587c000, 864256, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x12000) = 0x735a7587c000
+4788  mmap(0x735a7594f000, 163840, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0xe5000) = 0x735a7594f000
+4788  mmap(0x735a75977000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x10d000) = 0x735a75977000
+4788  mmap(0x735a75979000, 543136, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x735a75979000
+4788  openat(AT_FDCWD, "/usr/local/lib/ollama/libggml-cpu-cannonlake.so", O_RDONLY|O_CLOEXEC) = 4
+4788  mmap(NULL, 1878528, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x735a75833000
+4788  mmap(0x735a75845000, 1085440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x12000) = 0x735a75845000
+4788  mmap(0x735a7594e000, 167936, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x11b000) = 0x735a7594e000
+4788  mmap(0x735a75977000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x144000) = 0x735a75977000
+4788  mmap(0x735a75979000, 543232, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x735a75979000
+4788  openat(AT_FDCWD, "/usr/local/lib/ollama/libggml-cpu-piledriver.so", O_RDONLY|O_CLOEXEC) = 4
+4788  mmap(NULL, 1587712, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x735a7587a000
+4788  mmap(0x735a7588c000, 798720, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x12000) = 0x735a7588c000
+4788  mmap(0x735a7594f000, 163840, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0xd5000) = 0x735a7594f000
+4788  mmap(0x735a75977000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0xfc000) = 0x735a75977000
+4788  mmap(0x735a75979000, 543232, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x735a75979000
+4788  openat(AT_FDCWD, "/usr/local/lib/ollama/libggml-cpu-alderlake.so", O_RDONLY|O_CLOEXEC) = 4
+4788  mmap(NULL, 1649056, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x735a7586b000
+4788  mmap(0x735a7587d000, 860160, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x12000) = 0x735a7587d000
+4788  mmap(0x735a7594f000, 163840, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0xe4000) = 0x735a7594f000
+4788  mmap(0x735a75977000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x10c000) = 0x735a75977000
+4788  mmap(0x735a75979000, 543136, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x735a75979000
+4788  openat(AT_FDCWD, "/usr/local/lib/ollama/libggml-cpu-x64.so", O_RDONLY|O_CLOEXEC) = 4
+4788  mmap(NULL, 1415840, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x735a758a4000
+4788  mmap(0x735a758b6000, 667648, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x12000) = 0x735a758b6000
+4788  mmap(0x735a75959000, 122880, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0xb5000) = 0x735a75959000
+4788  mmap(0x735a75977000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0xd3000) = 0x735a75977000
+4788  mmap(0x735a75979000, 543392, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x735a75979000
+4788  openat(AT_FDCWD, "/usr/local/lib/ollama/libggml-cpu-cascadelake.so", O_RDONLY|O_CLOEXEC) = 4
+4788  mmap(NULL, 1874432, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x735a75834000
+4788  mmap(0x735a75846000, 1081344, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x12000) = 0x735a75846000
+4788  mmap(0x735a7594e000, 167936, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x11a000) = 0x735a7594e000
+4788  mmap(0x735a75977000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x143000) = 0x735a75977000
+4788  mmap(0x735a75979000, 543232, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x735a75979000
+4788  openat(AT_FDCWD, "/usr/local/lib/ollama/libggml-cpu-cooperlake.so", O_RDONLY|O_CLOEXEC) = 4
+4788  mmap(NULL, 1870336, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x735a75835000
+4788  mmap(0x735a75847000, 1077248, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x12000) = 0x735a75847000
+4788  mmap(0x735a7594e000, 167936, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x119000) = 0x735a7594e000
+4788  mmap(0x735a75977000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x142000) = 0x735a75977000
+4788  mmap(0x735a75979000, 543232, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x735a75979000
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4788  openat(AT_FDCWD, "/usr/local/lib/ollama/libggml-cpu-sapphirerapids.so", O_RDONLY|O_CLOEXEC) = 4
+4788  mmap(NULL, 2124736, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x735a75600000
+4788  mmap(0x735a75613000, 1314816, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x13000) = 0x735a75613000
+4788  mmap(0x735a75754000, 176128, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x154000) = 0x735a75754000
+4788  mmap(0x735a7577f000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x17e000) = 0x735a7577f000
+4788  mmap(0x735a75782000, 543680, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x735a75782000
+4788  openat(AT_FDCWD, "/usr/local/lib/ollama/libggml-cpu-ivybridge.so", O_RDONLY|O_CLOEXEC) = 4
+4788  mmap(NULL, 1591808, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x735a75879000
+4788  mmap(0x735a7588b000, 802816, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x12000) = 0x735a7588b000
+4788  mmap(0x735a7594f000, 163840, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0xd6000) = 0x735a7594f000
+4788  mmap(0x735a75977000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0xfd000) = 0x735a75977000
+4788  mmap(0x735a75979000, 543232, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x735a75979000
+4788  openat(AT_FDCWD, "/usr/local/lib/ollama/libggml-cpu-sse42.so", O_RDONLY|O_CLOEXEC) = 4
+4788  mmap(NULL, 1419904, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x735a758a3000
+4788  mmap(0x735a758b5000, 671744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x12000) = 0x735a758b5000
+4788  mmap(0x735a75959000, 122880, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0xb6000) = 0x735a75959000
+4788  mmap(0x735a75977000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0xd4000) = 0x735a75977000
+4788  mmap(0x735a75979000, 543360, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x735a75979000
+4788  openat(AT_FDCWD, "/usr/local/lib/ollama/libggml-cpu-zen4.so", O_RDONLY|O_CLOEXEC) = 4
+4788  mmap(NULL, 1870336, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x735a75835000
+4788  mmap(0x735a75847000, 1077248, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x12000) = 0x735a75847000
+4788  mmap(0x735a7594e000, 167936, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x119000) = 0x735a7594e000
+4788  mmap(0x735a75977000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x142000) = 0x735a75977000
+4788  mmap(0x735a75979000, 543232, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x735a75979000
+4788  openat(AT_FDCWD, "/usr/local/lib/ollama/libggml-cpu-skylakex.so", O_RDONLY|O_CLOEXEC) = 4
+4788  mmap(NULL, 1878528, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x735a75833000
+4788  mmap(0x735a75845000, 1085440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x12000) = 0x735a75845000
+4788  mmap(0x735a7594e000, 167936, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x11b000) = 0x735a7594e000
+4788  mmap(0x735a75977000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x144000) = 0x735a75977000
+4788  mmap(0x735a75979000, 543232, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x735a75979000
+4788  openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_DIRECTORY) = 3
+4788  openat(AT_FDCWD, "/usr/local/lib/ollama/libggml-cpu-haswell.so", O_RDONLY|O_CLOEXEC) = 3
+4788  mmap(NULL, 1653152, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x735a7586a000
+4788  mmap(0x735a7587c000, 864256, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x12000) = 0x735a7587c000
+4788  mmap(0x735a7594f000, 163840, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xe5000) = 0x735a7594f000
+4788  mmap(0x735a75977000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x10d000) = 0x735a75977000
+4788  mmap(0x735a75979000, 543136, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x735a75979000
+4788  openat(AT_FDCWD, "/proc/cpuinfo", O_RDONLY) = 3
+4788  openat(AT_FDCWD, "/sys/devices/system/cpu/online", O_RDONLY|O_CLOEXEC) = 3
+4788  openat(AT_FDCWD, "/sys/devices/system/cpu/cpu0/topology/thread_siblings", O_RDONLY) = 3
+4788  openat(AT_FDCWD, "/sys/devices/system/cpu/cpu1/topology/thread_siblings", O_RDONLY) = 3
+4788  openat(AT_FDCWD, "/sys/devices/system/cpu/cpu2/topology/thread_siblings", O_RDONLY) = 3
+4788  openat(AT_FDCWD, "/sys/devices/system/cpu/cpu3/topology/thread_siblings", O_RDONLY) = 3
+4788  openat(AT_FDCWD, "/sys/devices/system/cpu/cpu4/topology/thread_siblings", O_RDONLY) = -1 ENOENT (No such file or directory)
+4788  openat(AT_FDCWD, "/sys/devices/system/cpu/online", O_RDONLY|O_CLOEXEC) = 3
+4788  openat(AT_FDCWD, "/sys/devices/system/cpu/online", O_RDONLY|O_CLOEXEC) = 3
+4788  mmap(NULL, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x735a75069000
+4792  mmap(NULL, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x735a74868000
+4788  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/blobs/sha256-021059cce659fe7f9170d5599761d7bbaf644b798dab9503aca30dc43e6beb14", O_RDONLY <unfinished ...>
+4792  mmap(NULL, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0 <unfinished ...>
+4788  <... openat resumed>)             = 4
+4792  <... mmap resumed>)               = 0x735a74067000
+4792  mmap(NULL, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x735a6f7ff000
+4792  mmap(NULL, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x735a6effe000
+4792  mmap(NULL, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x735a6e7fd000
+4788  mmap(NULL, 180224, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x735a77109000
+4788  mmap(NULL, 356352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x735a770b2000
+4788  mmap(NULL, 708608, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x735a76c6a000
+4788  mmap(NULL, 520192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x735a770b6000
+4788  mmap(NULL, 2002944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x735a6e614000
+4788  mmap(NULL, 2002944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x735a6e42b000
+4788  mmap(NULL, 2002944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x735a6e242000
+4788  mmap(NULL, 2002944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x735a6e059000
+4788  mmap(NULL, 165482496, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x735a64288000
+4788  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/blobs/sha256-021059cce659fe7f9170d5599761d7bbaf644b798dab9503aca30dc43e6beb14", O_RDONLY) = 4
+4788  mmap(NULL, 520192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x735a64209000
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4793  mmap(NULL, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x735a5c200000
+4794  mmap(NULL, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x735a58000000
+4621  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4795  mmap(0x735a5c000000, 67108864, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x735a5c000000
+4788  mmap(NULL, 369831936, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x735a41f4d000
+4788  mmap(NULL, 3100672, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x735a41c58000
+4788  mmap(NULL, 7081984, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x735a41597000
+4788  mmap(NULL, 7081984, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x735a40ed6000
+4788  mmap(NULL, 106188800, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x735a3b713000
+4788  mmap(NULL, 165482496, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x735a31942000
+4788  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/blobs/sha256-021059cce659fe7f9170d5599761d7bbaf644b798dab9503aca30dc43e6beb14", O_RDONLY) = 4
+4796  mmap(NULL, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4796  <... mmap resumed>)               = 0x735a29800000
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4797  mmap(NULL, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x735a24000000
+4620  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4788  mmap(NULL, 619253760, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7359ff16f000
+4788  mmap(NULL, 106110976, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7359f8c3d000
+4788  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/blobs/sha256-fa401b55b07ee70a54c6dae3903c783a6e65064312529ea57175cb5f8dec6634", O_RDONLY) = 4
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4788  mmap(NULL, 16478208, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x735a6d846000
+4788  mmap(NULL, 16478208, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x735a6c88f000
+4788  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/blobs/sha256-fa401b55b07ee70a54c6dae3903c783a6e65064312529ea57175cb5f8dec6634", O_RDONLY) = 4
+4620  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4620  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4788  mmap(NULL, 87683072, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x735a6945e000
+4788  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/blobs/sha256-fa401b55b07ee70a54c6dae3903c783a6e65064312529ea57175cb5f8dec6634", O_RDONLY) = 4
+4621  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4621  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4621  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4788  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/blobs/sha256-fa401b55b07ee70a54c6dae3903c783a6e65064312529ea57175cb5f8dec6634", O_RDONLY) = 4
+4788  mmap(NULL, 2616033280, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x735988128000
+4788  mmap(NULL, 1047973888, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7359499bb000
+4620  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4620  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4620  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4620  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4620  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4620  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4621  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4626  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4620  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4620  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4620  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4626  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4626  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4620  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4788  mmap(NULL, 25169920, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x735a6cffc000
+4788  mmap(NULL, 87683072, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x735a67c5d000
+4788  mmap(NULL, 120086528, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x735a50d7a000
+4788  mmap(NULL, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x735a6745c000
+4788  mmap(NULL, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x735a66c5b000
+4788  mmap(NULL, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x735a6645a000
+4620  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4788  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/blobs/sha256-021059cce659fe7f9170d5599761d7bbaf644b798dab9503aca30dc43e6beb14", O_RDONLY) = 5
+4788  mmap(NULL, 165482496, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x735a46fa9000
+4788  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/blobs/sha256-021059cce659fe7f9170d5599761d7bbaf644b798dab9503aca30dc43e6beb14", O_RDONLY) = 5
+4788  mmap(NULL, 369831936, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x735a30ef6000
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4788  mmap(NULL, 106188800, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x735943476000
+4788  mmap(NULL, 165482496, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7359396a5000
+4788  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/blobs/sha256-021059cce659fe7f9170d5599761d7bbaf644b798dab9503aca30dc43e6beb14", O_RDONLY) = 4
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4788  mmap(NULL, 619253760, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x735914814000
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4626  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4626  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4626  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4626  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4626  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4626  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4626  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4626  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4626  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4620  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4620  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4788  mmap(NULL, 106110976, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x73590e2e2000
+4788  openat(AT_FDCWD, "/etc/localtime", O_RDONLY|O_CLOEXEC) = 4
+4788  mmap(NULL, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x735a65c59000
+4620  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/blobs/sha256-fa401b55b07ee70a54c6dae3903c783a6e65064312529ea57175cb5f8dec6634", O_RDONLY|O_CLOEXEC) = 8
+4620  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4620  mmap(NULL, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x78150b7ff000
+4847  mmap(NULL, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x781503600000
+4620  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4620  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4620  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4620  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4620  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4620  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4620  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4620  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4620  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4620  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4620  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4620  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4620  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/blobs/sha256-021059cce659fe7f9170d5599761d7bbaf644b798dab9503aca30dc43e6beb14", O_RDONLY|O_CLOEXEC) = 10
+4625  openat(AT_FDCWD, "/usr/share/ollama/.ollama/models/blobs/sha256-021059cce659fe7f9170d5599761d7bbaf644b798dab9503aca30dc43e6beb14", O_RDONLY|O_CLOEXEC) = 10
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4844  mmap(0x735a28000000, 67108864, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x735a28000000
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4620  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4620  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4625  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4620  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---
+4622  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=4617, si_uid=996} ---

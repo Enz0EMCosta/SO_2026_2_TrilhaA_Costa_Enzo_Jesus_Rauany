@@ -1,0 +1,11 @@
+Linux so2 6.8.0-134-generic #134-Ubuntu SMP PREEMPT_DYNAMIC Fri Jun 26 18:43:11 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+               total        used        free      shared  buff/cache   available
+Mem:           7.8Gi       1.5Gi       4.5Gi       1.2Mi       1.9Gi       6.2Gi
+Swap:             0B          0B          0B
+4
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2        92G   25G   63G  29% /
+ollama version is 0.34.0
+NAME                                                ID              SIZE      MODIFIED   
+hf.co/google/gemma-4-E2B-it-qat-q4_0-gguf:latest    bf543bb2aa66    4.3 GB    2 days ago    
+kernel.yama.ptrace_scope = 0
