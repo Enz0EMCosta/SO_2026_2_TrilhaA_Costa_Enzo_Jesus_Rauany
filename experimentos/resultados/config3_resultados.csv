@@ -1,0 +1,6 @@
+execucao,num_ctx,status,total_s,load_s,prompt_tokens,prompt_eval_s,output_tokens,eval_s,tokens_s,observacao
+Curto_1,1024,sucesso,392.638,380.046,21,2.597,31,8.527,3.635,
+Curto_2,1024,sucesso,425.296,382.574,21,3.774,27,38.033,0.710,
+Longo_1,4096,sucesso,511.902,340.999,21,135.792,29,33.383,0.869,
+Longo_2,4096,timeout,,,,,,,,llama-server nao ficou disponivel em aproximadamente 10 minutos
+Longo_3,4096,sucesso,407.265,332.563,21,1.224,26,72.304,0.360,
