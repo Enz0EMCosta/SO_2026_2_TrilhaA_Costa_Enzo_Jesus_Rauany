@@ -13,4 +13,3 @@
 | Copilot | Apoio na escrita/organização do relatório | "Revise esse parágrafo do relatório em pdf do meu grupo, verifique erros de pontuação e duplicidade de palavras" | Solicitado e corrigiu erros de gramática e coesão |
 | *(espaço extra — usar se algum integrante usar mais de uma ferramenta)* | | | |
 
-**Instruções para os demais integrantes:** cada um deve substituir uma das linhas *(Nome — preencher)* pela sua própria entrada, seguindo o mesmo formato das linhas já preenchidas: nome da ferramenta de IA usada, finalidade de uso, um prompt representativo (entre aspas) e um resumo curto da saída obtida. Quem não usou IA generativa em sua etapa pode escrever isso diretamente na linha ("Não utilizei IA generativa nesta etapa"), já que o enunciado pede a declaração de todos, mesmo que seja pra dizer que não usaram.
