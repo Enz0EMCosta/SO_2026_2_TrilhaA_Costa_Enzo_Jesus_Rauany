@@ -42,24 +42,12 @@ Durante a inicialização do Ollama, o runtime identificou a execução utilizan
 
 ### Saídas coletadas (evidências)
 
-> Colar abaixo a saída bruta de cada comando rodado no ambiente WSL2, em blocos de código. Exemplo:
+<img width="1203" height="381" alt="image" src="https://github.com/user-attachments/assets/5f73bb9c-ba3f-44d5-a728-1e7d49a21993" />
+<img width="1197" height="547" alt="image" src="https://github.com/user-attachments/assets/e088d84f-b2f4-4a4c-8189-c12b75235b31" />
+<img width="1135" height="422" alt="image" src="https://github.com/user-attachments/assets/082a62d0-80f9-4ce7-a51e-e3c4c0bea2d5" />
+<img width="1073" height="484" alt="image" src="https://github.com/user-attachments/assets/e6a72c22-656f-430e-8fd0-9bf659be7ad8" />
+<img width="1196" height="387" alt="image" src="https://github.com/user-attachments/assets/982bf2e8-28a8-4d65-af50-d075b441b850" />
 
-```
-$ uname -a
-[COLAR SAÍDA AQUI]
-
-$ lscpu
-[COLAR SAÍDA AQUI]
-
-$ free -h
-[COLAR SAÍDA AQUI]
-
-$ df -h
-[COLAR SAÍDA AQUI]
-
-$ lsblk
-[COLAR SAÍDA AQUI]
-```
 
 (Os mesmos comandos, rodados no ambiente VirtualBox, estão documentados junto ao passo a passo de instalação em `instalacao.md`.)
 
