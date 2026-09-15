@@ -1,6 +1,6 @@
 # Instalação e Execução — Equipe Gemma
 
-**Responsável:** Enzo Emanuel Maia Costa (202300061901)
+**Aluno:** Enzo Emanuel Maia Costa (202300061901)
 **Trilha:** A — Ollama + Open WebUI
 **Modelo:** `google/gemma-4-E2B-it-qat-q4_0-gguf` (Gemma 4, variante E2B, Instruct, QAT, GGUF Q4_0)
 
