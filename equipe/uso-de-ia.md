@@ -4,7 +4,9 @@
 |---|---|---|---|
 | Claude | Planejamento geral da atividade a partir do enunciado | "Analise TODO esse documento, e a partir da análise, quero sua ajuda com um roadmap para dividir as atividades entre os membros do time de forma coerente" | Sugeriu a divisão por seções do enunciado (ambiente, camada de aplicação, modelo, processos/threads/syscalls, experimentos) e recomendou tópicos para cada membro do time, além disso, retornou um roteiro dia a dia (instalação, observação de processos/threads/syscalls, experimentos comparativos, relatório, vídeo) |
 | Copilot (Github) | Organização da estrutura do repositório no GitHub | "A partir do Roadmap e divisão das tarefas anteriores, me ajude na criação de toda a estrutura de pastas no GitHub, de forma que facilite o trabalho dos membros" | Criou toda a estrutura do repositório, indicou em quais arquivos cada trecho do texto deveria entrar, a partir da pasta `contexto/`, e os comandos `git add`/`commit`/`push` para subir o conteúdo para a branch main do nosso repositório |
-| *(Filipe — preencher)* | | | |
+| Claude | Configuração do ambiente de rastreamento | "Como faço para rodar o strace no Ollama? Preciso anexar a um processo" | Orientou a instalação do strace, o ajuste de `kernel.yama.ptrace_scope` para permitir anexo a processos de outro usuário, e o uso da flag `-f` para acompanhar os subprocessos criados pelo daemon |
+| Claude | Leitura das tabelas de syscalls geradas | "O que esses percentuais e contagens do strace -c significam?" | Explicou o significado de cada coluna da saída agregada e das principais famílias observadas (`futex`, `mmap`, `read`, `lseek`, `socket`/`connect`), relacionando-as às etapas de carga, I/O e comunicação |
+| Claude | Estruturação do relatório e dos slides | "Organize esse conteúdo no formato do template do repositório" | Organizou o texto nas seções Método, Principais syscalls e Interpretação, e montou o deck com os dados coletados |
 | ChatGPT | Identificar modelo ollama | "Preciso identificar a versão instalada do Ollama" |ollama --version systemctl is-active ollama|
 | *(Fagner — preencher)* | | | |
 | *(Katyane — preencher)* | | | |
