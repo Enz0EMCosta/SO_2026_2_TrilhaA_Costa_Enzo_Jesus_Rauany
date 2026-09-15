@@ -2,10 +2,10 @@
 
 | Integrante | Atividades realizadas |
 |---|---|
-| Enzo Emanuel Maia Costa | |
-| Filipe de Carvalho Godoy | |
-| Giulian Fabio Bastos Amorim Lima | |
-| José Fagner Silva Junqueira | |
-| Katyane dos Santos | |
-| Rauany Ingrid Santos de Jesus | |
-| Vênisson Cardoso dos Santos | |
+| Enzo Emanuel Maia Costa | Documentação do ambiente experimental (inventário do ambiente: SO, kernel, CPU, RAM, swap, armazenamento e GPU nos ambientes WSL2 e VirtualBox — seção 6.1) e do processo de instalação e execução inicial (instalação do Ollama, download e teste do modelo, preparação do Open WebUI, achados de memória/swap e limite de contexto — seção 6.3), respondendo às questões de análise Q3 e parte da Q12. Também elaborou a Declaração de Uso de IA Generativa da equipe. |
+| Filipe de Carvalho Godoy | Análise das chamadas de sistema (syscalls) via `strace` durante a execução do Ollama, identificando e explicando famílias de chamadas relacionadas ao carregamento do modelo, leitura/gravação de arquivos e comunicação local (seção 7.2), respondendo à questão de análise Q6. |
+| Giulian Fabio Bastos Amorim Lima | Documentação da camada de aplicação (ficha técnica do Open WebUI): URL do repositório, autor/organização, licença, commit/release utilizado, arquitetura de comunicação com o Ollama, dependências, instalação e limitações encontradas (seção 6.2), respondendo à questão de análise Q1. |
+| José Fagner Silva Junqueira | Observação de processos e threads durante a execução da aplicação (PID/PPID, estados, hierarquia entre Ollama e Open WebUI, contagem de threads, consumo de CPU/memória por processo — seção 7.1), respondendo às questões de análise Q4 e Q5. |
+| Katyane dos Santos | Execução e coleta de métricas das Configurações 1 (padrão) e 2 (concorrência/carga variável) dos experimentos comparativos, incluindo diferentes tamanhos de entrada e repetições (seção 8), respondendo às questões de análise Q7 e Q8. |
+| Rauany Ingrid Santos de Jesus | Ficha técnica do modelo Hugging Face (`google/gemma-4-E2B-it-qat-q4_0-gguf`): parâmetros, finalidade, idioma, licença, formato, quantização, contexto, requisitos de hardware e riscos/limitações (seção 5.3), respondendo às questões de análise Q2 e Q13. |
+| Vênisson Cardoso dos Santos | Execução e coleta de métricas da Configuração 3 (ajuste de execução local) dos experimentos comparativos, além da consolidação das tabelas das três configurações (mínimo de 12 execuções) e elaboração do gráfico comparativo dos resultados (seção 8), respondendo às questões de análise Q9 e Q10. |
