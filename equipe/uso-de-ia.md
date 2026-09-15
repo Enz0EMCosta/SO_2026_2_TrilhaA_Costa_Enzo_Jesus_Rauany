@@ -9,7 +9,7 @@
 | Claude | Estruturação do relatório e dos slides | "Organize esse conteúdo no formato do template do repositório" | Organizou o texto nas seções Método, Principais syscalls e Interpretação, e montou o deck com os dados coletados |
 | ChatGPT | Identificar modelo ollama | "Preciso identificar a versão instalada do Ollama" |ollama --version systemctl is-active ollama|
 | *(Fagner — preencher)* | | | |
-| *(Katyane — preencher)* | | | |
+|ChatGPT | Auxílio na preparação do modelo ollama| Ajude a executar Ollama e o modelo Gemma| Auxiliou na configuração e execução local do modelo Gemma utilizando o Ollama|
 | Claude | Verificação de informação crítica | “Eu preciso da ficha técnica do modelo 4n-e2b escolhido pela equipe, use esse link: [link do gemma-4-E2B-it-qat-q4_0-gguf] e do modelo gemma-3-E2B e suas principais diferenças para determinar qual o mais indicado para a trilha escolhida pela equipe” | A IA alertou sobre a divergência de família de modelo e refez a ficha técnica com os dados corretos. Apontando o 4-E2B como o mais indicado para a atividade. |
 | Claude | Aprofundamento em um critério específico | “Descreva o mais afundo o critério formato exigido na ficha técnica” | Explicação da cadeia de derivação do modelo (checkpoint base → instruct → QAT → conversão GGUF) e da relevância de cada etapa para os conceitos de Sistemas Operacionais (armazenamento, I/O, chamadas de sistema no carregamento) |
 | *(Vênisson — preencher)* | | | |
