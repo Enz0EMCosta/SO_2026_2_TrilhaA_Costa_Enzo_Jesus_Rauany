@@ -1,0 +1,3 @@
+num_ctx,execucoes_concluidas,timeouts,tempo_total_medio_s,tempo_geracao_medio_s,tokens_por_segundo_medio
+1024,2,0,408.967,23.280,2.172
+4096,2,1,459.583,52.844,0.615
