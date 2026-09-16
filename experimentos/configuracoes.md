@@ -56,9 +56,21 @@ Entre C1 e C2 foram mantidos o mesmo modelo, quantização, contexto, hardware, 
 
 As métricas de CPU, RAM e threads foram obtidas em execuções adicionais de monitoramento e, portanto, são mantidas separadas das duas repetições oficiais utilizadas para as métricas de desempenho.
 
-## Configuração 3
+## Configuração 3 — C3: ajuste da janela de contexto
 
-- Descrição:
-- Modelo e quantização:
-- Concorrência:
-- Recursos relevantes:
+- Descrição: comparação do impacto da janela de contexto configurada no desempenho da inferência local.
+- Ambiente: Ubuntu 24.04.4 LTS em máquina virtual Oracle VirtualBox.
+- Modelo: google/gemma-4-E2B-it-qat-q4_0-gguf.
+- Modelo no Ollama: hf.co/google/gemma-4-E2B-it-qat-q4_0-gguf:latest.
+- Quantização: Q4_0.
+- Execução: somente em CPU.
+- Concorrência: 1 requisição por vez.
+- Contexto curto: num_ctx = 1024.
+- Contexto longo: num_ctx = 4096.
+- Prompt: "Explique em uma frase o que é um sistema operacional."
+- Thinking: desabilitado.
+- Streaming: desabilitado.
+- keep_alive: 0, descarregando o modelo após cada requisição.
+- Variável alterada: tamanho da janela de contexto.
+- Variáveis mantidas: modelo, prompt, ambiente e quantização.
+- Recursos e métricas relevantes: tempo total, tempo de carregamento, tempo de geração, tokens por segundo e ocorrência de timeout.
