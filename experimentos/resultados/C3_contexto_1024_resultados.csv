@@ -1,0 +1,3 @@
+execucao,num_ctx,status,tempo_total_s,tempo_carregamento_s,tempo_geracao_s,tokens_por_segundo
+Curto_1,1024,sucesso,392.638,380.046,8.527,3.635
+Curto_2,1024,sucesso,425.296,382.574,38.033,0.710
