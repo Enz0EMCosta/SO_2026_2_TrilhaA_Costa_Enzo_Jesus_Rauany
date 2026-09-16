@@ -1,10 +1,14 @@
 # Camada de aplicação
 
 ## Open WebUI
-- Repositório:
-- Licença:
-- Commit ou versão:
-- Dependências relevantes:
+- Repositório: https://github.com/open-webui/open-webui
+- Release utilizada/observada: v0.11.3
+- Release: https://github.com/open-webui/open-webui/releases/tag/v0.11.3
+- Imagem utilizada: ghcr.io/open-webui/open-webui:main
+- Licença: Open WebUI License
+- Data de acesso: 10/09/2026
+- Dependências relevantes: Docker 29.1.3; Ollama 0.34.0; Python; FastAPI/Uvicorn; SvelteKit; SQLite.
+
 
 ## Relação com o Ollama
 
